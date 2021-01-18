@@ -18,7 +18,7 @@ app.use(routes);
 
 // Connect to the Mongo DB
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/guarded-brushlands",
+  process.env.MONGODB_URI || "mongodb://localhost/guarded-brushlands-39016",
   {
     useCreateIndex: true,
     useNewUrlParser: true
